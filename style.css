@@ -668,5 +668,5 @@ footer a:hover {
 }
 
 .process-step:hover + .process-arrow {
-  transform: translateX(6px);
+  transform: translateX(12px);
 }
