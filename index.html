@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,7 +32,9 @@
       <a href="#skills">Skills</a>
     </nav>
 
-    <a href="#contact" class="nav-link">Let's Talk ↗</a>
+    <a href="#contact" class="nav-link">
+      Let's Talk <span>↗</span>
+    </a>
 
   </header>
 
@@ -44,41 +47,83 @@
 
     <section class="hero">
 
-      <div class="eyebrow">
-        Business × Technology × Data
+      <div class="hero-content">
+
+        <div class="eyebrow">
+          <span class="eyebrow-dot"></span>
+          Business × Technology × Data
+        </div>
+
+        <h1>
+          Every problem
+          <span>has a story.</span>
+          <br />
+          I help turn that story
+          <span>into a solution.</span>
+        </h1>
+
+        <p class="hero-copy">
+          Hi, I'm Seemi — an Information Science professional who enjoys
+          connecting business needs, data, technology, and people to solve
+          meaningful problems.
+        </p>
+
+        <div class="actions">
+
+          <a href="#projects" class="button primary">
+            Explore My Work <span>↓</span>
+          </a>
+
+          <a href="#contact" class="button">
+            Let's Connect <span>↗</span>
+          </a>
+
+        </div>
+
       </div>
 
-      <h1>
-        I turn complex business problems into clear, data-informed solutions.
-      </h1>
 
-      <p class="hero-copy">
-        I'm Seemi Patel, an Information Science professional interested in
-        business analysis, data, technology, product strategy, and
-        user-centered problem solving.
-      </p>
+      <!-- STORY PATH -->
 
-      <div class="actions">
+      <div class="story-path">
 
-        <a href="#projects" class="button primary">
-          View My Work
-        </a>
+        <div class="story-step">
+          <span class="arrow">→</span>
+          <div>
+            <small>01</small>
+            <strong>Understand</strong>
+          </div>
+        </div>
 
-        <a href="#contact" class="button">
-          Let's Connect
-        </a>
+        <div class="story-line"></div>
 
-      </div>
+        <div class="story-step">
+          <span class="arrow">→</span>
+          <div>
+            <small>02</small>
+            <strong>Analyze</strong>
+          </div>
+        </div>
 
+        <div class="story-line"></div>
 
-      <!-- PROCESS -->
+        <div class="story-step">
+          <span class="arrow">→</span>
+          <div>
+            <small>03</small>
+            <strong>Improve</strong>
+          </div>
+        </div>
 
-      <div class="process">
+        <div class="story-line"></div>
 
-        <span>01 <i>Understand</i></span>
-        <span>02 <i>Analyze</i></span>
-        <span>03 <i>Improve</i></span>
-        <span>04 <i>Deliver</i></span>
+        <div class="story-step">
+          <span class="arrow">→</span>
+          <div>
+            <small>04</small>
+            <strong>Deliver</strong>
+          </div>
+        </div>
 
       </div>
 
@@ -89,32 +134,37 @@
          ABOUT
     ========================== -->
 
-    <section class="section" id="about">
+    <section class="section story-section" id="about">
 
       <div class="section-label">
-        01 — About
+        Chapter 01 — The Beginning
       </div>
 
       <div>
 
         <p class="kicker">
-          BUSINESS • DATA • TECHNOLOGY
+          WHERE IT STARTED
         </p>
 
         <h2>
-          I enjoy solving problems at the intersection of people, data, and technology.
+          It started with a simple question:
+          <em>How can we make this better?</em>
         </h2>
 
         <p>
-          My background in Information Science has given me experience across
-          data analysis, UX research, product thinking, front-end development,
-          and customer-facing financial services.
+          My background in Information Science taught me that great solutions
+          rarely come from looking at just one side of a problem.
         </p>
 
         <p>
-          I enjoy taking complex information, understanding the underlying
-          problem, and turning it into a practical solution that creates
-          value for both businesses and their customers.
+          Sometimes the answer is hidden in the data. Sometimes it's in a
+          customer's experience. Sometimes it's in the technology behind the
+          scenes.
+        </p>
+
+        <p>
+          I became interested in the space where all three meet —
+          <strong>people, data, and technology.</strong>
         </p>
 
         <div class="path">
@@ -138,13 +188,13 @@
 
 
     <!-- =========================
-         WHAT I BRING
+         APPROACH
     ========================== -->
 
-    <section class="section">
+    <section class="section story-section">
 
       <div class="section-label">
-        02 — What I Bring
+        Chapter 02 — The Way I Think
       </div>
 
       <div>
@@ -154,18 +204,18 @@
         </p>
 
         <h2>
-          A combination of analytical thinking and customer understanding.
+          I don't just look for an answer.
+          <em>I try to understand the question first.</em>
         </h2>
-
 
         <div class="metrics">
 
-          <div class="metric">
+          <div class="metric interactive-card">
 
-            <strong>01</strong>
+            <strong>→</strong>
 
             <span>
-              Business Analysis
+              <b>Business Analysis</b>
               <br />
               Requirements · Processes · Problem Solving
             </span>
@@ -173,12 +223,12 @@
           </div>
 
 
-          <div class="metric">
+          <div class="metric interactive-card">
 
-            <strong>02</strong>
+            <strong>→</strong>
 
             <span>
-              Data & Analytics
+              <b>Data & Analytics</b>
               <br />
               SQL · Excel · Python · Tableau
             </span>
@@ -186,12 +236,12 @@
           </div>
 
 
-          <div class="metric">
+          <div class="metric interactive-card">
 
-            <strong>03</strong>
+            <strong>→</strong>
 
             <span>
-              Product & UX
+              <b>Product & UX</b>
               <br />
               Research · Testing · Prototyping
             </span>
@@ -199,12 +249,12 @@
           </div>
 
 
-          <div class="metric">
+          <div class="metric interactive-card">
 
-            <strong>04</strong>
+            <strong>→</strong>
 
             <span>
-              Communication
+              <b>Communication</b>
               <br />
               Customers · Stakeholders · Collaboration
             </span>
@@ -222,24 +272,22 @@
          EXPERIENCE
     ========================== -->
 
-    <section class="section" id="experience">
+    <section class="section story-section" id="experience">
 
       <div class="section-label">
-        03 — Experience
+        Chapter 03 — The Experience
       </div>
 
       <div>
 
         <p class="kicker">
-          PROFESSIONAL EXPERIENCE
+          WHERE I'VE LEARNED
         </p>
 
         <h2>
-          Experience across technology, financial services, and customer experience.
+          Different environments taught me different ways to solve problems.
         </h2>
 
-
-        <!-- EXPERIENCE 1 -->
 
         <div class="experience-card">
 
@@ -258,26 +306,22 @@
           <div>
 
             <p>
-              Worked directly with customers to understand financial needs,
-              evaluate information, and recommend appropriate solutions while
-              maintaining accuracy and compliance.
+              Working directly with customers taught me how important it is
+              to listen first, understand the situation, evaluate information,
+              and recommend the right solution.
             </p>
 
             <div class="tags">
-
               <span>Customer Analysis</span>
               <span>Financial Services</span>
               <span>Problem Solving</span>
               <span>Communication</span>
-
             </div>
 
           </div>
 
         </div>
 
-
-        <!-- EXPERIENCE 2 -->
 
         <div class="experience-card">
 
@@ -296,26 +340,22 @@
           <div>
 
             <p>
-              Supported technology and data-related initiatives, working with
-              structured information and helping teams organize and communicate
-              data effectively.
+              Here, I became more comfortable working with structured data,
+              technology, Excel, Tableau, and information that teams rely on
+              to make better decisions.
             </p>
 
             <div class="tags">
-
               <span>Data</span>
               <span>Excel</span>
               <span>Tableau</span>
               <span>Technology</span>
-
             </div>
 
           </div>
 
         </div>
 
-
-        <!-- EXPERIENCE 3 -->
 
         <div class="experience-card">
 
@@ -334,18 +374,16 @@
           <div>
 
             <p>
-              Built customer relationships by understanding individual needs,
-              recommending appropriate products, and delivering a personalized
-              customer experience.
+              Working with customers strengthened another part of my skill set:
+              understanding people, communicating clearly, building trust,
+              and turning individual needs into practical recommendations.
             </p>
 
             <div class="tags">
-
               <span>Sales</span>
               <span>Customer Experience</span>
               <span>Communication</span>
               <span>Relationship Building</span>
-
             </div>
 
           </div>
@@ -361,26 +399,27 @@
          PROJECTS
     ========================== -->
 
-    <section class="section" id="projects">
+    <section class="section story-section" id="projects">
 
       <div class="section-label">
-        04 — Selected Work
+        Chapter 04 — Things I've Built
       </div>
 
       <div>
 
         <p class="kicker">
-          PROJECTS
+          SELECTED WORK
         </p>
 
         <h2>
-          Projects where research, data, technology, and design come together.
+          Curiosity turned into projects.
+          <em>Here are a few.</em>
         </h2>
 
 
         <!-- PROJECT 01 -->
 
-        <article class="project">
+        <article class="project interactive-project">
 
           <div class="project-number">
             01
@@ -394,27 +433,35 @@
 
             <h3>
               ResumeJo
+              <span>↗</span>
             </h3>
 
             <p>
               A job-finding platform designed to make the job search experience
-              more efficient and user-centered. Conducted interviews with
-              15+ individuals to understand user needs and identify pain points
-              throughout the job-search process.
+              more efficient and user-centered.
+            </p>
+
+            <p>
+              I conducted interviews with 15+ individuals to understand user
+              needs, identify pain points, and explore opportunities to improve
+              the job-search experience.
             </p>
 
             <div class="tags">
-
               <span>Figma</span>
               <span>UX Research</span>
               <span>JavaScript</span>
               <span>React</span>
               <span>MongoDB</span>
-
             </div>
 
-            <a href="https://spate144.wixsite.com/mysite-1" class="text-link">
-              View Case Study ↗
+            <a
+              href="https://spate144.wixsite.com/mysite-1"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-link"
+            >
+              Explore Case Study →
             </a>
 
           </div>
@@ -424,7 +471,7 @@
 
         <!-- PROJECT 02 -->
 
-        <article class="project">
+        <article class="project interactive-project">
 
           <div class="project-number">
             02
@@ -438,26 +485,34 @@
 
             <h3>
               Business Performance Dashboard
+              <span>↗</span>
             </h3>
 
             <p>
-              An analytical dashboard designed to turn raw business data into
-              actionable insights. The project focuses on identifying trends,
-              comparing performance, and translating findings into business
+              An analytical project focused on turning raw business data into
+              information that can support better decisions.
+            </p>
+
+            <p>
+              The analysis explores trends, performance comparisons, and
+              opportunities to translate data into actionable business
               recommendations.
             </p>
 
             <div class="tags">
-
               <span>SQL</span>
               <span>Excel</span>
               <span>Python</span>
               <span>Tableau</span>
-
             </div>
 
-            <a href="https://github.com/Seemipatel/SQL-data-warehouse-project" class="text-link">
-              View Analysis ↗
+            <a
+              href="https://github.com/Seemipatel/SQL-data-warehouse-project"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-link"
+            >
+              Explore Analysis →
             </a>
 
           </div>
@@ -467,7 +522,7 @@
 
         <!-- PROJECT 03 -->
 
-        <article class="project">
+        <article class="project interactive-project">
 
           <div class="project-number">
             03
@@ -481,68 +536,34 @@
 
             <h3>
               T-Bus Navigation App
+              <span>↗</span>
             </h3>
 
             <p>
-              Researched and redesigned the university transportation
-              experience to make route discovery and navigation easier for
-              students. Used interviews, card sorting, and prototyping to
-              improve information architecture.
+              A research-driven redesign of the university transportation
+              experience.
+            </p>
+
+            <p>
+              I used interviews, card sorting, and prototyping to understand
+              how students navigate transportation information and identify
+              opportunities to make route discovery easier.
             </p>
 
             <div class="tags">
-
               <span>Figma</span>
               <span>Card Sorting</span>
               <span>Interviews</span>
               <span>Marvel</span>
-
             </div>
 
-            <a href="https://spate144.wixsite.com/mysite-1/t-bus" class="text-link">
-              View Case Study ↗
-            </a>
-
-          </div>
-
-        </article>
-
-
-        <!-- PROJECT 04 -->
-
-        <article class="project">
-
-          <div class="project-number">
-            04
-          </div>
-
-          <div>
-
-            <small>
-              Process Improvement · UX
-            </small>
-
-            <h3>
-              Canvas Redesign
-            </h3>
-
-            <p>
-              Explored improvements to the Canvas student experience by
-              identifying information overload and reducing unnecessary
-              notifications while making important information easier to find.
-            </p>
-
-            <div class="tags">
-
-              <span>User Research</span>
-              <span>Information Architecture</span>
-              <span>UX Design</span>
-              <span>Usability</span>
-
-            </div>
-
-            <a href="https://spate144.wixsite.com/mysite-1/canvas" class="text-link">
-              View Case Study ↗
+            <a
+              href="https://spate144.wixsite.com/mysite-1/t-bus"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-link"
+            >
+              Explore Case Study →
             </a>
 
           </div>
@@ -558,22 +579,22 @@
          SKILLS
     ========================== -->
 
-    <section class="section" id="skills">
+    <section class="section story-section" id="skills">
 
       <div class="section-label">
-        05 — Skills
+        Chapter 05 — My Toolkit
       </div>
 
       <div>
 
         <p class="kicker">
-          TOOLKIT
+          WHAT I WORK WITH
         </p>
 
         <h2>
-          Tools I use to analyze, build, understand, and improve.
+          A toolkit built around one goal:
+          <em>turning information into action.</em>
         </h2>
-
 
         <div class="tool-grid">
 
@@ -612,10 +633,10 @@
          EDUCATION
     ========================== -->
 
-    <section class="section">
+    <section class="section story-section">
 
       <div class="section-label">
-        06 — Education
+        Chapter 06 — The Foundation
       </div>
 
       <div>
@@ -653,17 +674,22 @@
 
 
     <!-- =========================
-         CONTACT
+         FINAL CTA
     ========================== -->
 
     <section class="cta" id="contact">
 
+      <div class="cta-arrow">
+        ↘
+      </div>
+
       <p class="kicker">
-        LET'S CONNECT
+        YOUR TURN
       </p>
 
       <h2>
-        Interested in solving meaningful business problems together?
+        So... what's the next problem
+        <em>we're solving?</em>
       </h2>
 
       <p>
@@ -713,5 +739,84 @@
   </footer>
 
 
+  <!-- =========================
+       INTERACTION
+  ========================== -->
+
+  <script>
+
+    // Reveal sections while scrolling
+    const revealElements = document.querySelectorAll(
+      ".section, .project, .experience-card, .metric"
+    );
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+
+        entries.forEach((entry) => {
+
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          }
+
+        });
+
+      },
+      {
+        threshold: 0.12
+      }
+    );
+
+    revealElements.forEach((element) => {
+      observer.observe(element);
+    });
+
+
+    // Interactive cursor movement for project cards
+    const projects = document.querySelectorAll(".interactive-project");
+
+    projects.forEach((project) => {
+
+      project.addEventListener("mousemove", (event) => {
+
+        const rect = project.getBoundingClientRect();
+
+        const x = event.clientX - rect.left;
+        const y = event.clientY - rect.top;
+
+        project.style.setProperty("--mouse-x", `${x}px`);
+        project.style.setProperty("--mouse-y", `${y}px`);
+
+      });
+
+    });
+
+
+    // Smooth navigation
+    document.querySelectorAll('a[href^="#"]').forEach((link) => {
+
+      link.addEventListener("click", (event) => {
+
+        const target = document.querySelector(
+          link.getAttribute("href")
+        );
+
+        if (target) {
+
+          event.preventDefault();
+
+          target.scrollIntoView({
+            behavior: "smooth"
+          });
+
+        }
+
+      });
+
+    });
+
+  </script>
+
 </body>
 </html>
+```
